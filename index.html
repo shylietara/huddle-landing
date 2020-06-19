@@ -1,70 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  Try It Free
+  <div class="top-container">
+    <div class="top-left">
+      <!--LOGO GOES HERE, FLOAT TOP-LEFT-->
+      <h1>Build The Community Your Fans Will Love</h1>
 
-  Build The Community Your Fans Will Love
+      <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+        Create connections with your users as you engage in genuine discussion.</p>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+      <button class="getstarted button" type="button" name="button">Get Started For Free</button>
+    </div>
+    <div class="top-right">
+      <button class="tryitfree button" type="button" name="button">Try It Free</button>
+      <!--TWO BROWSER GRAPHICS GO IN THIS DIV-->
+    </div>
+  </div>
+  <div class="middle-container">
+    <div class="grow-together">
+      <h3>Grow Together</h3>
 
-  Get Started For Free
+      <p>Generate meaningful discussions with your audience and build a strong, loyal community.
+      Think of the insightful conversations you miss out on with a feedback form.</p>
 
-  Grow Together
+    </div>
+    <div class="flowing-conversations">
+    <h3>Flowing Conversations</h3>
 
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
+      <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads
+      have just-in-time loading for a more natural flow.</p>
+    </div>
+    <div class="users">
+      <h3>Your Users</h3>
 
-  Flowing Conversations
+      <p>It takes no time at all to integrate Huddle with your app's authentication solution.
+      This means, once signed in to your app, your users can start chatting immediately.</p>
+    </div>
+  </div>
 
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
+  <div class="bottom-container">
+    <div class="float">
+      <!--POSITION ABSOLUTE TO "bottom-container"-->
+      <h2>Ready To Build Your Community?</h2>
 
-  Your Users
-
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+      <button class="float button" type="button" name="button">Get Started For Free</button>
+    </div>
+    <div class="address">
+      <ul>
+      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua</li>
+      <li>+1-543-123-4567</li>
+      <li>example@huddle.com</li>
+    </div>
+    <div class="links">
+      <div class="links-left">
+        <ul>
+          <li>About Us</li>
+          <li>What We Do</li>
+          <li>FAQ</li>
+        </ul>
+      </div>
+      <div class="links-right">
+        <ul>
+          <li>Career</li>
+          <li>Blog</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <!--NO SOCIAL MEDIA ICONS BC I AM NOT PAYING FOR THAT SHIT BRUH-->
+    </div>
+    <div class="copyright">
+      &copy; Copyright 2018 Huddle. All rights reserved.
+    </div>
+  </div>
 </body>
+
 </html>
