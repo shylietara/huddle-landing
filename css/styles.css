@@ -193,7 +193,7 @@ font-weight: 700;
   box-shadow: 5px 5px 40px #696969;
   top: 305%;
   left: 23%;
-
+  padding-bottom: 20px;
 }
 
 .inner-float {
@@ -218,8 +218,7 @@ font-weight: 700;
 }
 
 .bottom-text {
-  height: 100%;
-  width: 50%;
+  height: 90%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -240,8 +239,8 @@ font-weight: 700;
 }
 
 .list-icons {
-margin-top: 22%;
-margin-right: 20px;
+margin-top: 16%;
+margin-right: 2%;
 }
 
 .address {
@@ -261,6 +260,13 @@ margin-right: 20px;
   font-size: 0.80em;
   width: 400px;
   margin-top: 12%;
+}
+
+.white-logo {
+  filter: brightness(0) invert(1);
+  position: absolute;
+  left: 20%;
+  top: 38%;
 }
 
 li {
