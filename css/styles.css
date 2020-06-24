@@ -46,8 +46,10 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  position: absolute;
-  bottom:15px;
+}
+
+li {
+  line-height: 1.5em;
 }
 
 .button {
@@ -174,6 +176,7 @@ font-weight: 700;
   width: 100%;
   background-color: #00252e;
   position: relative;
+  color: #ebfbff;
 }
 
 .float {
@@ -189,7 +192,8 @@ font-weight: 700;
   align-items: center;
   box-shadow: 5px 5px 40px #696969;
   top: 305%;
-  left: 21%;
+  left: 23%;
+
 }
 
 .inner-float {
@@ -213,6 +217,63 @@ font-weight: 700;
   margin: auto;
 }
 
+.bottom-text {
+  height: 100%;
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.location {
+  padding-bottom: 65px;
+}
+
+.phone {
+  padding-bottom: 23px;
+}
+
+.icon {
+  display: block;
+}
+
+.list-icons {
+margin-top: 22%;
+margin-right: 20px;
+}
+
+.address {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  left: 15%;
+  font-size: 0.80em;
+  margin-top: 15%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.80em;
+  width: 400px;
+  margin-top: 12%;
+}
+
+li {
+  line-height: 1.5em;
+  padding-bottom: 20px;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 40px;
+  right: 70px;
+  font-size: 0.70em;
+}
 .attribution {
   display: none;
 }
